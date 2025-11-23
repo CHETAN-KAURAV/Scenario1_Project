@@ -195,7 +195,7 @@ This work was completed using PyCharm Community Edition on:
 
 ---
 
-# **Thank You for Your Kind Consideration and Time**
+## **Thank You for Your Kind Consideration and Time**
 
 - I have sincerely tried my best to ensure that every requirement of the task has been implemented with clarity, correctness, and attention to detail.  
 All steps in the pipeline — from geospatial processing to label extraction and model training — have been carefully documented in this README for your convenience.
