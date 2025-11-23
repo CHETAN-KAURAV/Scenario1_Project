@@ -21,9 +21,21 @@ Scenario1_Project/
 ├── data/
 │   ├── rgb/                # Input RGB images 
 │   ├── land_cover.tif      # ESA WorldCover
-│   └── image_coords.csv
+│   ├── image_coords.csv
+│   ├── delhi_ncr_region.geojson
+│   ├── delhi_ncr_region.shp
+│   ├── delhi_ncr_region.shx
+│   ├── delhi_ncr_region.dbf
+│   ├── delhi_ncr_region.prj
+│   ├── delhi_ncr_region.cpg
+│   ├── delhi_ncr_region_utm44n.shp
+│   ├── delhi_ncr_region_utm44n.shx
+│   ├── delhi_ncr_region_utm44n.dbf
+│   ├── delhi_ncr_region_utm44n.prj
+│   └── delhi_ncr_region_utm44n.cpg
 │
-├──reports                  # I have provided report in both .pdf and .docx formats
+│
+├── report/                 # I have provided report in both .pdf and .docx formats
 │   ├── Chetan_Kaurav_6_month_intern_selection_task_scenario_1_report.docx
 │   └── Chetan_Kaurav_6_month_intern_selection_task_scenario_1_report.pdf
 │
