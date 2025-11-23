@@ -17,14 +17,16 @@ All tasks have been completed in a fully reproducible pipeline built using PyCha
 ```
 Scenario1_Project/
 │
-├── Scenario1_Pipeline.py   #It covers the Q1 and Q2 except the class distribution(done in scripts/plot_class_distribution) and imbalance discussion(done in report)
-├── make_coords_and_labels.py
-├── q1_finalize.py
 │
 ├── data/
 │   ├── rgb/                # Input RGB images 
 │   ├── land_cover.tif      # ESA WorldCover
 │   └── image_coords.csv
+│
+├──reports                  # I have provided report in both .pdf and .docx formats
+│   ├── Chetan_Kaurav_6_month_intern_selection_task_scenario_1_report.docx
+│   └── Chetan_Kaurav_6_month_intern_selection_task_scenario_1_report.pdf
+│
 │
 ├── outputs/                # Final results (all deliverables included)
 │   ├── grid_60km.geojson
@@ -48,10 +50,19 @@ Scenario1_Project/
 │   ├── training_log.txt
 │   └── class_presence.csv
 │
-└── scripts/
-    ├── train_eval_resnet.py
-    ├── plot_class_distribution.py
-    └── plot_train_test_distribution.py
+├── scripts/
+│    ├── train_eval_resnet.py
+│    ├── plot_class_distribution.py
+│    ├── plot_train_test_distribution.py
+│    ├── Scenario1_Pipeline.py   #It covers the Q1 and Q2 except the class distribution(done in scripts/plot_class_distribution) and imbalance discussion(done in report)
+│    ├── make_coords_and_labels.py
+│    ├── q1_finalize.py
+│    └── Geojson_to_shp.py
+│
+├──README.md
+└──requirements.txt
+
+
 
 ```
 ---
